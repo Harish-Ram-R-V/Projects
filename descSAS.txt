@@ -1,0 +1,15 @@
+SECURITY ALARM SYSTEM:
+
+My Project Comprises of,
+        💠The fire and gas detection system is a smart safety solution designed to detect gas leaks (e.g., methane, CO, propane) and fire hazards (sudden temperature spikes).
+        When a hazard is detected, the system triggers an alarm, activates LED indicators, and displays warnings buzzer sound.
+        💠The Theif Detection System can be used for safety purpose in Authorized Area Zones which works in base of laser detection.
+
+
+FUTURE ENHANCEMENTS:
+
+🔹 Connect to Wi-Fi (ESP8266/NodeMCU) → Send alerts to a mobile app
+🔹 Add an SMS alert system (GSM Module) → Notify users via text message
+🔹 Integrate with smart home systems for automated safety actions
+🔹 A relay module can be used to automatically cut off power supply or activate an exhaust fan to reduce danger.
+🔹 SO on...
