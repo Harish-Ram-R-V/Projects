@@ -31,7 +31,8 @@ void loop()
   
   if (temp>=80) 
   { 
-    digitalWrite(redled,HIGH); 
+    digitalWrite(redled,HIGH);
+    delay(600);
   } 
   else 
   { 
@@ -40,6 +41,7 @@ void loop()
   if (gasSensor>=100) 
   { 
     digitalWrite(piezo,HIGH); 
+    delay(1000);
   } 
   else 
   { 
@@ -54,7 +56,10 @@ void loop()
     digitalWrite(piezo, HIGH);      // turn on alarm
     digitalWrite(redled, HIGH);     // turn on the led indicators
     digitalWrite(greenled, LOW);
-    delay(600);
+    delay(1000);
+  }
+  else
+  {
     digitalWrite(piezo, LOW);  
     digitalWrite(redled, LOW);
     digitalWrite(greenled, HIGH);
@@ -71,5 +76,5 @@ void loop()
   Serial.print(" "); 
   Serial.print(gasSensor); 
   Serial.println(); 
-  delay(1000); 
+  delay(500); 
 }
