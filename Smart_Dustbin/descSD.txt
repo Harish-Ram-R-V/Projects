@@ -1,2 +1,13 @@
 SMART_DUSTBIN:
-  💠
+      💠A Smart Dustbin automatically opens its lid when someone approaches and monitors how full it is. 
+      This makes waste disposal more hygienic, hands-free, and efficient for use in public places, hospitals, homes, etc.
+      💠
+
+
+FUTURE ENHANCEMENTS:
+    🔹IoT Integration: Monitor dustbins across a city via WiFi (Smart City Application).
+    🔹RTC Module: Track and log how often and when the bin is used.
+    🔹SD Card Module: Store usage logs.
+    🔹Solar Panel: Power the system in public outdoor locations.
+    🔹Make things noticeable as message in phone when dustbin is full.
+    
