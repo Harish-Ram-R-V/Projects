@@ -6,8 +6,8 @@ My Project Comprises of,
         💠The Theif Detection System can be used for safety purpose in Authorized Area Zones which works in base of laser detection.
 
 HOW TO MAKE?
-        I have used soil moisture sensore to measure the humidity in soil through resistance & conductance property and temperature sensor to measure the temperature of surrounding which works by the fact that for every one degree celsius the voltage will increase 10mV and ambient light sensor to measure the light intensity  and convert it into electric signal (ie bright light = more current).
-        using these analog data from sensors. I will set some condition and give digital signal to output motor (which runs when needed and ensure maintained humidity in soil for plants)
+        I have used LDR(Light Emitting Diode) sensor to detect the presence of eternal light signal on it which works in base fact that ( more light -> more intensity -> more energy -> more production of valence electron -> lesser resistance) and temperature sensor to detect obnormality in temperature and gas sensor to measure harmful gas/smoke which works in fact that (low voltage -> less gas) but basiclally it has a sensitive material (tin dioxide) whose electrical resistance changes when it comes into contact with specific gas molecules ( like LPG, CO, etc.,)
+        I will get data from these sensors and indicate the presence of fire or detection of theif , when temp&gas increases and light absence in ldr respectively.
 
 FUTURE ENHANCEMENTS:
 
