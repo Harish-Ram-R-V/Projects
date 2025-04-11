@@ -1,4 +1,18 @@
+RADIO CONTROLLED MOTOR:
+  
+      💠
+      💠
+        
+HOW TO MAKE?
+        I have used 
 
+WHAT I LEARNED:
+        
+
+
+FUTURE ENHANCEMENTS:
+    🔹
+    🔹
 
 References:
   https://docs.cirkitdesigner.com/component/6a3af8d3-9148-4d67-b0c3-f5bbe357d83a/cytron-md10c-motor-driver
