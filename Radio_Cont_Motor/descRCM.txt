@@ -1,0 +1,6 @@
+
+
+References:
+  https://docs.cirkitdesigner.com/component/6a3af8d3-9148-4d67-b0c3-f5bbe357d83a/cytron-md10c-motor-driver
+  https://www.youtube.com/watch?v=OoUSLSvTJdY
+  https://www.airspayce.com/mikem/arduino/RadioHead/?utm_source=chatgpt.com
