@@ -4,7 +4,10 @@ RADIO CONTROLLED MOTOR:
       💠
         
 HOW TO MAKE?
-        I have used RF wireless transmitter receiver module (433 mhz) to send string data from user using serial monitor in which the Transmitter receives digital data (0s and 1s) from a microcontroller (like Arduino, STM32, etc.) and uses ASK (Amplitude Shift Keying) or OOK (On-Off Keying) to encode the data into radio waves and then the encoded signal is transmitted wirelessly at 433 MHz, which is an ISM (Industrial, Scientific, and Medical) band and the Receiver converts the received RF signal back into the original digital data and then the demodulated data is sent to a microcontroller for further processing.(Range: Typically 50–100 meters (line of sight).   Speed: Low data rate, usually around 4–10 kbps.)
+        I have used RF wireless transmitter receiver module (433 mhz) to send string data from user using serial monitor in which the Transmitter receives digital data (0s and 1s) from a microcontroller (like Arduino, STM32,
+etc.) and uses ASK (Amplitude Shift Keying) or OOK (On-Off Keying) to encode the data into radio waves and then the encoded signal is transmitted wirelessly at 433 MHz, which is an ISM (Industrial, Scientific, and Medical)
+band and the Receiver converts the received RF signal back into the original digital data and then the demodulated data is sent to a microcontroller for further processing.(Range: Typically 50–100 meters (line of sight).
+Speed: Low data rate, usually around 4–10 kbps.)
         then I have used MD10C motor driver module to send signal to control the speed and delay.
 
 WHAT I LEARNED:
