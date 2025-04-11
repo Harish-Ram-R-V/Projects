@@ -4,6 +4,10 @@ SMART_IRRIGATION_SYSTEM
       It conserves water, reduces manual labor, and is perfect for agriculture or home gardening automation.
       💠
         
+HOW TO MAKE?
+        I have used soil moisture sensore to measure the humidity in soil through resistance & conductance property and temperature sensor to measure the temperature of surrounding which works by the fact that for every one degree celsius the voltage will increase 10mV and ambient light sensor to measure the light intensity  and convert it into electric signal (ie bright light = more current).
+        using these analog data from sensors. I will set some condition and give digital signal to output motor (which runs when needed and ensure maintained humidity in soil for plants)
+
 
 FUTURE ENHANCEMENTS:
     🔹WiFi/Bluetooth Module: Monitor and control remotely (ESP8266 or HC-05).

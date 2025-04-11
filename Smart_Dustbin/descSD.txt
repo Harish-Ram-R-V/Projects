@@ -3,6 +3,9 @@ SMART_DUSTBIN:
       This makes waste disposal more hygienic, hands-free, and efficient for use in public places, hospitals, homes, etc.
       💠
 
+HOW TO DO?
+      I have used pir sensor to detect obstacle which works by measuring the difference in infrared radiation emited by object in its field of view  and Ultrasonic sensor to measure the amount of leftover space in the dustbin which works by measuring the time taken by ultasonic pulse bw emitted and reflected ray to measure the distance of object before it.
+      I get data from the sensor and makes the srvo to open the dustbin when there is a motion in front of pir sensor and space in dustbin.
 
 FUTURE ENHANCEMENTS:
     🔹IoT Integration: Monitor dustbins across a city via WiFi (Smart City Application).
