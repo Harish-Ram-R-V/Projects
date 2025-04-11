@@ -3,12 +3,19 @@ RADIO CONTROLLED MOTOR:
       💠In this project , I have used serial monitor to get input from user as ONE/ZERO and Transmit the STRING as msg packets.
       💠Use Receiver to receive them and send signal to arduino to make the motor run if ONE or Stop if ZERO.
         
-HOW TO MAKE?
+WHAT I MADE?
         I have used RF wireless transmitter receiver module (433 mhz) to send string data from user using serial monitor in which the Transmitter receives digital data (0s and 1s) from a microcontroller (like Arduino, STM32,
 etc.) and uses ASK (Amplitude Shift Keying) or OOK (On-Off Keying) to encode the data into radio waves and then the encoded signal is transmitted wirelessly at 433 MHz, which is an ISM (Industrial, Scientific, and Medical)
 band and the Receiver converts the received RF signal back into the original digital data and then the demodulated data is sent to a microcontroller for further processing.(Range: Typically 50–100 meters (line of sight).
 Speed: Low data rate, usually around 4–10 kbps.)
         then I have used MD10C motor driver module to send signal to control the speed and delay.
+
+HOW TO MAKE?
+        First for Transmitter part connection connect [GND to Arduino GND - DAT to say pin 12 in Arduino(used to transmit Digitaldata) - VDD pin to 5V for power supply - ANT is the Antenna pin used to transmit
+radio frequency signals].
+        For Receiver part connection [DAT pin to pin 11 in Arduino (used to receive Digitaldata) - GND to GND in Arduino - VCC to 5V pin in Arduino - ANT is the Antenna pin used to receive radio frequency signals].
+        For Motor Driver Connection [Direction of the motor (dirpin) - say pin 3( HIGH - Clockwise && LOW - AntiClockwise { According to the viewing point } )- Driver pin of the motor (motorpin) - say pin 2( 0 - 255 is the 
+range possible where 0 is complete STOP and 255 is the maximum speed ) - GND to GND pin Arduino and connect motor and battery in the motor driver]
 
 WHAT I LEARNED:
          i have learned about the new motor driver module which I have used in this project but thr code was pretty similar like the L298N module and I learnt about working with RF Module  , while doing this task I met an
