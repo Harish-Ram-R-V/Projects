@@ -1,0 +1,27 @@
+A Smart Meal Planning & Feedback System
+
+Core Idea:
+A simple web-based app to:
+
+      Display menu in advance for informed choices and Let students opt-in/out for meals ahead of time.
+            To make everyone satisfied by the generalized, most probable answers which can be seen by the head and chef as bar graph using data analysis.
+
+      Rate meals and give quick feedback in the app.
+            so scanning the qr, which then will be stored in database is waste of time, defenitely no one wants to see that , so we can make up the databasse into a
+            SUMMARIZED message for the head and chef...
+      
+      Create reports for the mess manager to adjust meal prep and track food wastage.
+            By the datas we got above , we can guess how much we can prepare and by tracking the wastage we can find our loss , most importantly used to reduce same mistake again.
+            like by then wastage they get in a particular food so we can reduce that amount like that
+
+Innovation's use:
+      Uses data to reduce wastage and costs.
+      
+      Empowers students to be heard.
+
+      Improves hygiene and satisfaction.
+      
+      Can work with just a Google Form + dashboard for MVP.
+
+Future updates possible if idea arise...
+
